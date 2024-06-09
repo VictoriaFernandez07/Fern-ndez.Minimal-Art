@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="utf-8">
+     <title> Minimal Art Web</title>
+     <link href="estilos.css" rel="stylesheet" type="text/css">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="index.js"></script>
+    </head>
+
+    <body class="home-artistas">
+        <header>
+         <!--Título-web-->
+            <div class="secciones">
+                <div class="título-página">
+                    <a class="navbar-brand" href="index.html">
+                     <h1>Minimal Art</h1>
+                    </a>
+                </div>
+             <!--Secciones-->
+              <div class="col-sm-5"><a href="historia.html"><p>Historia</p></a></div>
+              <div class="col-sm-5"><a href="artistas.html"><p>Artistas</p></a></div>
+              <div class="col-sm-5"><a href="obras.html"><p>Obras</p></a></div>
+              <div class="col-sm-5"><a href="museos.html"><p>Museos</p></a></div>
+              <div class="col-sm-5"><a href="contacto.html"><p>Contacto</p></a></div>
+              <div class="col-sm-5"><a href="form_login.html"><p>Ingresar</p></a></div>
+            </div> 
+
+         <!--Buscar-artistas-->
+            <div class="container-buscador">
+                <form action="resultados_buscar.php" method="post">
+                  <label> Buscar artistas
+                  <input type="search" name="buscar" placeholder="Buscar..." />
+                  <input type="submit" value="Enviar" style="font-family: 'Nanum Myeongjo', serif;">
+                  </label>
+                </form>
+
+                <style>
+                    .container-buscador{
+                      margin-left: 4%;
+                      margin-top: -1%;
+                      font-family: 'Nanum Myeongjo', serif;
+                    }
+                </style>
+            </div>
+        </header>
+
+      <!--Título-sección-artistas-->
+        <div class="título-sección-artistas">
+         <p>Artistas detacados</p>
+        </div>
+
+        <!--Texto-introductorio-sección-artistas-->
+        <div class="texto-introductorio-sección-artistas">
+         <p>Bienvenido a la sección dedicada a los exponentes más destacados del arte minimalista. </p>
+        </div>
+
+        <!--Tarjetas-artistas-->
+        <div class="card-container-artistas">
+            <div class="card-artistas">
+                <div class="card-body-artistas">
+                    <div class="imagenes">
+                     <img id="PrimeraImagen" src="./Imágenes/Artistas/Ludwig-Mies-Van-Der-Rohe/Retrato-Ludwig-Mies-Van-Der-Rohe-01.jpg" class="img-fluid rounded-start" alt="...">
+                     <img class="SegundaImagen" src="./Imágenes/Artistas/Ludwig-Mies-Van-Der-Rohe/Retrato-Ludwig-Mies-Van-Der-Rohe-02.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <p class="card-title">Ludwig Mies Van Der Rohe (1886-1969)<p>
+                    <div class="card-text">
+                        <p>Ludwig Mies van der Rohe nació en Alemanía el 27 de marzo de 1886. En 1900 empezó a trabajar en el taller de su padre, que era cantero.
+                           Su consagración se produjo en 1929, cuando realizó el <strong>pabellón de Alemania</strong> para la <strong>Exposición Internacional de Barcelona</strong>, considerado por muchos su obra maestra y una de las obras arquitectónicas más influyentes del siglo XX. Su enorme simplicidad y la continuidad de los espacios, que parecen no tener principio ni fin, son sus cualidades más admiradas.
+                        </p>
+                        <p>Allí mismo desarrolló su carrera como Arquitecto y director de la <strong>Escuela de Arte y Diseño de la Bauhaus</strong> (1930 a 1933). Al final de la Primera Guerra Mundial entró en contacto con la vanguardia y se lo considera como padre de esta tendencia. Se identificaba por decir que <strong>no era necesario adornar un edificio, sino que el valor del mismo estaba en los detalles.</strong></p>
+                        <p>En 1958-1959 puso broche de oro a su carrera con el famosísimo Seagram Building de Nueva York, del que se dice que es el rascacielos más hermoso en vidrio ahumado y aluminio, y la Neue Nationalgalerie de Berlín (1962-1968). Con esta obra, Mies van der Rohe se mantuvo en la línea de oponer el horizontalismo de sus obras arquitectónicas europeas al verticalismo predominante en las estadounidenses.
+                           Falleció a los 83 años de edad en Chicago, Estados Unidos el 17 de agosto de 1969.
+                        </p>
+                    </div>
+                </div>
+            </div>
+                
+
+            <div class="card-artistas">
+                <div class="card-body-artistas">
+                    <div class="imagenes">
+                     <img  id="PrimeraImagen" src="./Imágenes/Artistas/Robert-Mangold/Retrato-Robert-Mangold-01.jpg" class="img-fluid rounded-start" alt="...">
+                     <img class="SegundaImagen" src="./Imágenes/Artistas/Robert-Mangold/Retrato-Robert-Mangold-02.jpg">
+                    </div>
+                    <p class="card-title">Robert Mangold<p>
+                    <div class="card-text">
+                        <p>El artista Robert Mangold (86) nacido en el norte de North Tonawanda, Nueva York el 12 de octubre de 1937 es, junto a Robert Ryman (1930-2019), el <strong>principal representante de la pintura minimalista</strong>, corriente abstracta tendente a la máxima simplificación de formas y colores, reducidas al mínimo para <strong>remarcar el componente conceptual de la creación artística, considerado más relevante que el sustrato material de la obra.</p>
+                        <p></strong> Mangold ha sido considerado uno de los miembros iniciadores del movimiento minimalista, en el que la forma, el color y la realización de series que exploran a fondo un ideario, son fundamentales en su producción. <strong>Su carrera está enfocada en la investigación de los principios básicos de la pintura a través de los objetos geométricos, gama de colores, etc.</strong></p>
+                        <p>El artista obtuvo un BFA y un MFA de la Universidad de Yale (1963). Ha sido incluido en la Academia Nacional (2005) y en la Academia Estadounidense de Artes y Letras (2001), y ha recibido numerosos premios, entre ellos el Premio Jawlensky-Preis der Stadt Wiesbaden (1998); la Medalla Skowhegan de Pintura (1993); y una Beca del Fondo Nacional de las Artes (1967).</p>
+                    </div>
+                </div>
+            </div>
+                
+            <div class="card-artistas">
+                <div class="card-body-artistas">
+                    <div class="imagenes">
+                     <img id="PrimeraImagen" src="./Imágenes/Artistas/Robert-Ryman/Retrato-Robert-Ryman-01.jpg" class="img-fluid rounded-start" alt="...">
+                     <img class="SegundaImagen" src="./Imágenes/Artistas/Robert-Ryman/Retrato-Robert-Ryman-02.jpg">
+                    </div>
+                    <p class="card-title">Robert Ryman (1930-2019)<p>
+                    <div class="card-text">
+                        <p>Robert Ryman nació en Nashville, Nueva York el 30 de mayo de 1930. En el movimiento se identificaba por sus paletas de colores monocromáticas y conceptuales. La mayoría de sus obras presentan una <strong>pincelada influida por el expresionismo abstracto</strong>, en pintura blanca sobre lienzos cuadrados o superficies metálicas. En 1953 empezó a trabajar en el Museo de Arte Moderno y en ese mismo año realizó su primera obra.</p>
+                        <p>En 1994 fue miembro de la <strong>Academia Americana de las Artes y las Letras de Nueva York</strong>, en el 2005 se le otorgó un premio internacional por la Asociación de Arte de Japón. 
+                           Ryman era a menudo clasificado como minimalista , pero prefería ser conocido como <strong>"realista"</strong>, explicando que <strong>no estaba interesado en crear ilusiones, sino sólo en presentar los materiales que utilizaba en las composiciones en su valor nominal.</strong>
+                           Aunque es más conocido por sus pinturas, también experimentó con el grabado creando aguafuertes, aguatintas , litografías , serigrafías y grabados en relieve.
+                        </p>
+                        <p>Al igual que sus pinturas, sus grabados son fácilmente identificables por sus superficies monocromáticas predominantemente cuadradas que exploran los valores, texturas y efectos de varios blancos y otros colores impresos en papel y aluminio.
+                           "No soy un pintor de cuadros. Trabajo con luz y espacio reales, y dado que la luz real es un aspecto importante de las pinturas, siempre presenta algunos problemas". Escribió en una declaración para una exposición (2010). 
+                          Falleció a los 88 años de edad en la ciudad de Manhattan, Nueva York el 8 de febrero de 2019.
+                        </p>
+                    </div>
+                </div>
+            </div>
+                
+            <div class="card-artistas">
+                <div class="card-body-artistas">
+                    <div class="imagenes">
+                     <img id="PrimeraImagen" src="./Imágenes/Artistas/Sol-Lewitt/Retrato-Sol-LeWitt-02.png" class="img-fluid rounded-start" alt="...">
+                     <img class="SegundaImagen" src="./Imágenes/Artistas/Sol-Lewitt/Retrato-Sol-LeWitt-01.jpg">
+                    </div>
+                    <p class="card-title">Solomon “Sol” LeWitt (1928-2007)<p>
+                    <div class="card-text">
+                        <p>Sol LeWitt nacido el 9 de septiembre de 1928 en New York fue un <strong>artista ligado al arte conceptual y minimalista a través del dibujo, la pintura, la fotografía y más.</strong>
+                           Tras estudiar arte y participar en la Guerra de Corea, se traslada a Nueva York de los años 50 donde consigue empleo en el <strong>Museo del Arte Moderno de Nueva York</strong> (MoMA), y entró en contacto con las nuevas corrientes artísticas que ya empezaban a alejarse del expresionismo abstracto y el Pop.
+                        </p>
+                        <p>Lo que se llamó minimalismo, una mezcla de cientos de corrientes artísticas anteriores.
+                           Como artista, <strong>no le significaba tanto la obra final en sí, sino el concepto de esta.</strong><strong> El objetivo principal con el arte era influir en los demás y en los espacios que lo habitaban.</strong> Se destacó principalmente en el uso de la <strong>geometría</strong>. 
+                        </p>
+                        <p>Como ejemplo de sus miles de obras podemos hablar de sus estructuras, que van de monumentales moles de cemento a pequeñas maquetas. Son típicas sus estructuras modulares derivadas del cubo, a veces abiertos, dialogando con el espacio que las rodea.
+                           Falleció a los 78 años de edad el 8 de abril de 2007, en New York, Estados Unidos a causa de cáncer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!--Footer-->
+        <footer>
+            <div class="footer">
+             <p class="copyright">minimalartvictoriafernándezcopyright2024©</p>
+            </div>
+        </footer>
+    </body>
+</html>

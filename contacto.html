@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta charset="utf-8">
+     <title> Minimal Art Web</title>
+     <link href="estilos.css" rel="stylesheet" type="text/css">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="index.js"></script>
+    </head>
+    <body class="home-contacto">
+        <header>
+         <!--Título-web-->
+            <div class="secciones">
+                <div class="título-página">
+                    <a class="navbar-brand" href="index.html">
+                      <h1>Minimal Art</h1>
+                    </a>
+                </div>
+             <!--Secciones-->
+             <div class="col-sm-5"><a href="historia.html"><p>Historia</p></a></div>
+             <div class="col-sm-5"><a href="artistas.html"><p>Artistas</p></a></div>
+             <div class="col-sm-5"><a href="obras.html"><p>Obras</p></a></div>
+             <div class="col-sm-5"><a href="museos.html"><p>Museos</p></a></div>
+             <div class="col-sm-5"><a href="contacto.html"><p>Contacto</p></a></div>
+             <div class="col-sm-5"><a href="form_login.html"><p>Ingresar</p></a></div>
+            </div> 
+        </header>
+     <!--Título-sección-contacto-->
+        <div class="título-sección-contacto">
+            <p>Contacto</p>
+        </div>
+
+     <!--Texto-sección-contacto-->
+        <div class="texto-sección-contacto">
+         <p>¡Gracias por tu interés en el arte minimalista! Valoramos tu visita a nuestra web. ¿Tenes alguna pregunta, comentario o sugerencia? Estamos acá para escucharte. 
+            <p>Utilizá el formulario a continuación para dejarnos tus comentarios. Esperamos con interés conocer tu opinión.</p>
+        </div>
+
+     <!--Tarjetas-artista-contacto-->
+        <div class="card-container-artistas-contacto">
+            <div class="card-body-artistas-contacto">
+             <img src="./Imágenes/Artistas/Robert-Mangold/Robert Mangold-Contacto.jpeg" class="img-fluid rounded-start" alt="...">
+             <p class="texto-01-contacto">"La pintura resiste, la pintura no ha perdido vigencia, la pintura se renueva continuamente." Robert Mangold</p>
+            </div>
+        </div>
+        
+
+     <!--Formulario-contacto-->
+        <div class="form-contacto">
+            <form action="enviar.php" method="POST">
+
+              <label for="fname">Nombre</label><br>
+               <input type="text" id="nombre" name="nombre"><br>
+         
+              <label for="lname">Correo electrónico</label><br>
+              <input type="text" id="correo-electrónico" name="email"><br>
+         
+              <label for="lname">Comentario</label><br>
+
+              <textarea id="message" name="comentario" rows="6" cols="40"></textarea><br>
+              <input type="submit" alt="enviar" class="botón-enviar" style="font-family: 'Nanum Myeongjo', serif;">
+
+            </form>
+        </div>
+
+     <!--Footer-->
+        <footer>
+            <div class="footer">
+             <p class="copyright">minimalartvictoriafernándezcopyright2024©</p>
+            </div>
+        </footer>
+
+     <!--Estilos-->
+        <style>
+            .copyright{
+              font-family: 'Nanum Myeongjo', serif;  
+              text-align: center;
+              font-size: 15px;
+              margin-top: 45px;
+              margin-left: 32%;
+            }
+        </style>
+    </body>
+</html>
